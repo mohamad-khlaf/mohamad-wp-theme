@@ -1,0 +1,36 @@
+.logo-link {
+  font-family: 'Poppins', sans-serif;
+  color: var(--skin-color);
+  .logo {
+    @include flex-center;
+
+    li {
+      text-transform: uppercase;
+      font-size: 2rem;
+      font-weight: 800;
+      text-shadow: -0.2rem .125rem .25rem rgba(0, 0, 0, 50%);
+      margin-left: -0.3125rem;
+      transform: scaleY(1.3);
+      filter: drop-shadow(0rem .125rem .125rem rgba(0, 0, 0, 10%));
+
+      &:nth-child(1) {
+        margin-left: 0rem;
+      }
+      &:nth-child(8) {
+        margin-left: -0.125rem;
+      }
+
+      &:nth-child(8) {
+        margin-left: .0625rem;
+      }
+
+      &:nth-child(9),
+      &:nth-child(10),
+      &:nth-child(11),
+      &:nth-child(12),
+      &:nth-child(13) {
+        margin-left: -0.4375rem;
+      }
+    } // end li
+  }
+}

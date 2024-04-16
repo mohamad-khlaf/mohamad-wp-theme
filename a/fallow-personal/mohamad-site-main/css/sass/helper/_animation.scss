@@ -1,0 +1,281 @@
+/* -------------Start animation header--------------- */
+@keyframes animHeaderSticky {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes bgClip {
+  from {
+    clip-path: circle(00.0% at 50% 50%);
+  }
+
+  to {
+    clip-path: circle(100% at 50% 50%);
+  }
+}
+
+/* -------------End animation header--------------- */
+/* -------------Start animation main heading--------------- */
+@keyframes animHeading {
+  from {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+
+  to {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+}
+
+/* -------------End animation main heading--------------- */
+/* -------------Start animation main landing--------------- */
+@keyframes rotateText {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* -------------End animation main landing--------------- */
+
+/* ---Start turn conic bg dw-cv btn line---  */
+@keyframes turn-conic {
+  to {
+    transform: translate(-50%, -50%) rotate(-1turn);
+  }
+}
+
+/* ---Start animate pp items---  */
+@keyframes ppItems {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+
+  }
+}
+
+/* ---End turn conic bg dw-cv btn line---  */
+/* ---Start animation skills bar---  */
+@keyframes rotateLi {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ----------------------------------------------------------- */
+
+@keyframes upSix1 {
+  from {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+
+  to {
+    transform: translate3d(-30%, 50%, calc(var(--li-nth1) + 3.6rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+}
+
+@keyframes downSix1 {
+  0% {
+    transform: translate3d(0, 0, calc(var(--li-nth1) + 3.6rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+
+  100% {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+}
+
+/* ----------------------------------------------------------- */
+
+@keyframes upSix2 {
+  from {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+
+  to {
+    transform: translate3d(-30%, 50%, calc(var(--li-nth2) + 3.6rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+}
+
+@keyframes downSix2 {
+  0% {
+    transform: translate3d(0, 0, calc(var(--li-nth2) + 3.6rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+
+  100% {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+}
+
+/* ----------------------------------------------------------- */
+
+@keyframes upSix3 {
+  from {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+
+  to {
+    transform: translate3d(-30%, 50%, calc(var(--li-nth3) + 3.6rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+}
+
+@keyframes downSix3 {
+  0% {
+    transform: translate3d(0, 0, calc(var(--li-nth3) + 3.6rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+
+  100% {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+}
+
+/* ----------------------------------------------------------- */
+
+@keyframes upSix4 {
+  from {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+
+  to {
+    transform: translate3d(-30%, 50%, calc(var(--li-nth4) + 3.6rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+}
+
+@keyframes downSix4 {
+  0% {
+    transform: translate3d(0, 0, calc(var(--li-nth4) + 3.6rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+
+  100% {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+}
+
+/* ----------------------------------------------------------- */
+@keyframes upSix5 {
+  from {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+
+  to {
+    transform: translate3d(-30%, 50%, calc(var(--li-nth5) + 3.6rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+}
+
+@keyframes downSix5 {
+  0% {
+    transform: translate3d(0, 0, calc(var(--li-nth5) + 3.6rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+
+  100% {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+}
+
+/* ----------------------------------------------------------- */
+@keyframes upSix6 {
+  from {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+
+  to {
+    transform: translate3d(-30%, 50%, calc(var(--li-nth6) + 3.6rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+}
+
+@keyframes downSix6 {
+  0% {
+    transform: translate3d(0, 0, calc(var(--li-nth6) + 3.6rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+
+  100% {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+}
+
+/* ----------------------------------------------------------- */
+
+@keyframes borderSix {
+  0% {
+    transform: translate3d(0, 0, 160px) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+
+  100% {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+}
+
+/* ---End animation skills bar---  */
+
+/* ---Start animation pixle--- */
+@keyframes pixle {
+  0% {
+      scale: 1;
+      rotate: 0;
+      translate: 0 0;
+      transform-origin: center;
+  }
+  20% {
+      scale: .99;
+      rotate: 0deg;
+      translate: 0 0;
+      transform-origin: center;
+  }
+  40% {
+      scale: .8;
+      rotate: 45deg;
+      translate: 20 0;
+      transform-origin: top left;
+  }
+  70% {
+      scale: 1.3;
+      rotate: 720deg;
+      translate: -20 0;
+      transform-origin: -100px;
+  }
+  90% {
+      scale: .9;
+      rotate: 0deg;
+      translate: 0 0;
+      transform-origin: center;
+  }
+  100% {
+      scale: 1;
+      rotate: 0deg;
+      translate: 0 0;
+      transform-origin: center;
+  }
+}
+@keyframes rotateImgs {
+  0% {
+    rotate: 0deg;
+    scale: 1;
+  }
+  50% {
+    rotate: 360deg;
+    scale: .7;
+  }
+  80% {
+    rotate: 0deg;
+    scale: 1;
+  }
+}

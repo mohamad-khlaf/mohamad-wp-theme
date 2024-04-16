@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Fallow - Personal Portfolio HTML Theme</title>
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/jquery.highlight.css" />
+
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/scrollbar.css" rel="stylesheet">
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+    <!--Page Wrapper-->
+    <div class="page-wrapper">
+
+        <!--Sidebar-->
+        <aside id="sidebar">
+
+            <!--Toggle Button-->
+            <div class="button-container clearfix">
+                <div class="menu-toggle flaticon-menu10"></div>
+            </div>
+
+            <!--Menu Box-->
+            <div class="menu-box">
+                <!--Logo-->
+                <br>
+                <div class="logo text-right"><a href="#"><img src="./images/logo.png" alt=""></a></div>
+
+                <!--Sticky Menu-->
+                <nav class="sticky-menu">
+                    <ul>
+                        <li class="current"><a href="#introduction">Introduction <span
+                                    class="fa fa-arrow-right"></span></a></li>
+                        <li><a href="#html-structure">HTML Structure <span class="fa fa-arrow-right"></span></a></li>
+                        <li><a href="#css-structure">CSS Files and Structure <span class="fa fa-arrow-right"></span></a>
+                        </li>
+                        <li><a href="#javascript">Javascript <span class="fa fa-arrow-right"></span></a></li>
+                        <li><a href="#tutorial">Tutorial<span class="fa fa-arrow-right"></span></a></li>
+                        <li><a href="#sources-credits">Sources and Credits <span class="fa fa-arrow-right"></span></a>
+                        </li>
+                        <li><a href="#support">Support <span class="fa fa-arrow-right"></span></a></li>
+                        <li><a href="#custom-order">Custom order <span class="fa fa-arrow-right"></span></a></li>
+                    </ul>
+
+                </nav>
+
+            </div>
+
+            <div class="copyright">Copyright &copy; <a href="mailto:Abdur.rohman2003@gmail.com">Fallow</a> 2023</div>
+        </aside>
+
+        <div id="content-section">
+
+            <!--Introduction Section-->
+            <section class="section introduction" id="introduction">
+                <!-- <div class="sec-title">
+            	<span class="icon fa fa-windows"></span>
+                <h2>Intoduction</h2>
+            </div> -->
+
+                <br>
+                <div class="sec-content">
+                    <h2>Fallow </h2>
+                    <h3>Personal Portfolio HTML Theme </h3>
+
+                    <div class="separator"></div>
+                    <strong>By :</strong> quomodotheme<br>
+                    <strong>Email :</strong> <a href="mailto:Abdur.rohman2003@gmail.com ">Support Email </a> <br>
+                    <strong>Support Forum :</strong> <a href="https://support.quomodosoft.com/support/">Support</a> <br>
+
+                    <br>
+                    <p>Thank you for purchasing <strong>Fallow </strong> - Personal Portfolio Html Theme. If you have
+                        any questions that are beyond the scope of this help file, please feel free to email, via my
+                        user page contact form or put a ticket at Support Center .<br>Thank you so much!</p>
+                    <br />
+
+                    <h3 class="content-title">Template Features</h3>
+                    <br />
+                    <ul class="checkbox">
+                        <li>Clean & Simple Design</li>
+                        <li>Advance Bootstrap 5 Framework </li>
+                        <li>HTML5 & CSS3 </li>
+                        <li>CSS3 Animations </li>
+                        <li>Fully Responsive Design </li>
+                        <li>All files are well commented </li>
+                        <li>Crossbrowser Compatible with IE10+, Firefox, Safari, Opera, Chrome </li>
+                        <li>Extensive Documentation</li>
+                    </ul>
+
+                </div>
+
+            </section>
+
+            <!--HTML Structure-->
+            <section class="section html-structure" id="html-structure">
+                <div class="sec-title">
+                    <span class="icon fa fa-th-large"></span>
+                    <h2>HTML Structure</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+
+                    <h3>The html template uses Latest <strong>Bootstrap v5</strong> with valid HTML5 tags. This
+                        theme is a responisve layout with 4 column Support column. All of the information in content
+                        area is nested within a class and comes with predefined classes.</h3>
+
+                    <h3 class="content-title">Basic Grid HTML</h3>
+                    <p>For a simple two column layout, create a .container and add the appropriate number of .col-md*
+                        columns. </p>
+                    <p>Given this example, we have .col-md-4 and .col-md-8, making for 12 total columns and a complete
+                        row.</p>
+                    <br />
+                    <pre class="code" data-language="html">
+<div class="container">
+    <div class="col-md-4">...</div>
+    <div class="col-md-8">...</div>
+</div>
+                </pre>
+                    <br />
+                    <h3 class="content-title">Nesting Columns</h3><!-- /.content-title -->
+                    <p>To nest your content with the default grid, add a new .container and set of .col-md* columns
+                        within an existing .col-md* column. Nested rows should include a set of columns that add up to
+                        the number of columns of its parent.</p>
+                    <br />
+                    <pre class="code" data-language="html">
+<div class="container">
+    <div class="col-md-9">
+        Level 1 column
+        <div class="row">
+            <div class="col-md-8">Level 2</div>
+            <div class="col-md-4">Level 2</div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        Level 2 column
+    </div>
+</div>
+</pre><!-- /.code -->
+                </div>
+
+            </section>
+
+            <!--CSS Structure-->
+            <section class="section css-structure" id="css-structure">
+                <div class="sec-title">
+                    <span class="icon fa fa-at"></span>
+                    <h2>CSS Files and Structure</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+
+                    <h3>Mainly three main CSS files are used in this theme. The first one
+                        <strong>bootstrap.min.css</strong>, second one is <strong>theme.css</strong> which for this
+                        template
+                        and to control responsive layouts.
+                    </h3>
+                    <p>If you would like to edit a specific section of the site, simply find the appropriate label in
+                        the CSS file, and then scroll down until you find the appropriate style that needs to be edited.
+                    </p>
+                    <br />
+                    <p>These are the css files that are loaded into templates in top of all page header file labled as
+                        <b>preset css</b>.
+                    </p>
+                    <br />
+                    <pre class="code" data-language="css">
+
+
+
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- bootstrap 5  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- slick slider  -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- venobox ja  -->
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <!-- style.css  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- responsive  -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+                </pre><!-- /.code -->
+
+                    <br />
+                    <h3 class="content-title">Fonts</h3>
+
+                    <p>By default, the template loads this font from Google Web Font Services, you can change the font
+                        with the one that suits you best.</p>
+                    <br />
+                    <pre class="code" data-language="css">
+
+<!-- Google Fonts -->
+
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+
+                </pre><!-- /.code -->
+
+                </div>
+
+            </section>
+
+            <!--Javascript-->
+            <section class="section javascript" id="javascript">
+                <div class="sec-title">
+                    <span class="icon fa fa-code"></span>
+                    <h2>Jquery and javascript</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+
+                    <h3>This theme imports three types of Javascript files.</h3>
+                    <ul>
+                        <li>jQuery</li>
+                        <li>Custom scripts <strong>(custom.js)</strong></li>
+                        <li>Some plugins</li>
+                        <br>
+                        <li><strong>jQuery</strong> is a Javascript library that greatly reduces the amount of code that
+                            you must write.</li>
+                        <li>Most of the animation in this site is carried out from the customs scripts. There are a few
+                            functions worth looking over.</li>
+                    </ul>
+                    <br>
+                    <p>In addition to the custom scripts, I have implemented few "tried and true" plugins to create the
+                        effects. This plugin is packed, so you won't need to manually edit anything in the file. The
+                        only necessary thing to know is how to call the method</p>
+                    <br />
+                    <br />
+                    <p>These are the JS files that are loaded into templates in end of the Body Section.</p>
+                    <br />
+                    <pre class="code" data-language="html">
+
+   <!-- jquery js  -->
+   <script src="js/jquery-1.12.4.min.js"></script>
+   <!-- bootstrap  js -->
+   <script src="js/bootstrap.bundle.min.js"></script>
+
+   <!-- mesonary iso-top js  -->
+   <script src="js/isotope.pkgd.min.js"></script>
+   <!-- venobox js  -->
+   <script src="js/venobox.min.js"></script>
+   <!-- slick slider js  -->
+   <script src="js/slick.min.js"></script>
+   <!-- counter js  -->
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+   <script src="js/jquery.counterup.min.js"></script>
+   <!-- main js  -->
+   <script src="js/custom.js"></script>
+
+                </pre><!-- /.code -->
+
+                </div>
+
+            </section>
+
+
+
+
+
+
+
+            <!--Sources and Credits-->
+            <section class="section tutorial" id="tutorial">
+                <div class="sec-title">
+                    <span class="icon fa fa-credit-card"></span>
+                    <h2>Tutorial</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+                    <h3 class="content-title">LOGO</h3><!-- /.content-title -->
+                    <br />
+                    <p>Lets start updating the template. Open index.html file and follow the steps.</p>
+                    <p>Most of the updates are same for all pages. So will explain once here.</p>
+                    <br />
+                    <pre class="code" data-language="html">
+<div class="logo">
+ <a href="index.html"> <img src="./images/logo/Logo.png" alt="logo"></a>
+</div>
+                </pre><!-- /.code -->
+
+                    <p>Replace "imag/logo/logo.png" with your logo image url source or website name .</p>
+                    <br />
+
+                    <h3 class="content-title">NAVMENU</h3><!-- /.content-title -->
+                    <br />
+                    <p>This is the basic structure.</p>
+
+                    <pre class="code" data-language="html">
+<!-- Collect the nav links, forms, and other content for toggling -->
+
+<!-- Header -->
+
+
+<header class="header">
+    <div class="container">
+        <div class="header-main">
+            <div class="header-left">
+                <div class="hrader-left-item">
+                    <div class="icon">
+                   <span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M6.00006 8L9.78126 10.5208C11.1249 11.4165 12.8753 11.4165 14.2189 10.5208L18.0001 8M6.00006 21H18.0001C20.2092 21 22.0001 19.2091 22.0001 17V7C22.0001 4.79086 20.2092 3 18.0001 3H6.00006C3.79092 3 2.00006 4.79086 2.00006 7V17C2.00006 19.2091 3.79092 21 6.00006 21Z" stroke="#2662FA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                   </span>
+                        
+                    </div>
+                
+                    <div class="text">
+                      <a href="#"><p>info@example.com</p></a>
+                  </div>
+                </div>
+                <div class="hrader-left-item">
+                    <div class="icon">
+                  <span>    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.0001 16L14.853 16.7354C15.1846 16.8018 15.5196 16.6379 15.6709 16.3354L15.0001 16ZM8.00006 9L7.66465 8.32918C7.36214 8.48043 7.1983 8.81544 7.26463 9.14709L8.00006 9ZM8.35408 8.82299L8.68949 9.49381L8.68949 9.49381L8.35408 8.82299ZM9.3166 6.29136L10.013 6.01281L9.3166 6.29136ZM8.50295 4.25722L7.80659 4.53576L8.50295 4.25722ZM19.7428 15.4971L19.4643 16.1935L19.7428 15.4971ZM17.7087 14.6835L17.9872 13.9871H17.9872L17.7087 14.6835ZM15.1771 15.646L15.8479 15.9814V15.9814L15.1771 15.646ZM16.2501 11C16.2501 11.4142 16.5858 11.75 17.0001 11.75C17.4143 11.75 17.7501 11.4142 17.7501 11H16.2501ZM16.6956 9.46927L17.3885 9.18225L16.6956 9.46927ZM14.5308 7.30448L14.8178 6.61157L14.5308 7.30448ZM13.0001 6.25C12.5858 6.25 12.2501 6.58579 12.2501 7C12.2501 7.41421 12.5858 7.75 13.0001 7.75V6.25ZM20.2501 11C20.2501 11.4142 20.5858 11.75 21.0001 11.75C21.4143 11.75 21.7501 11.4142 21.7501 11H20.2501ZM20.3911 7.93853L21.084 7.65152L20.3911 7.93853ZM16.0615 3.60896L16.3485 2.91605V2.91605L16.0615 3.60896ZM13.0001 2.25C12.5858 2.25 12.2501 2.58579 12.2501 3C12.2501 3.41421 12.5858 3.75 13.0001 3.75V2.25ZM20.2501 17.3541V19H21.7501V17.3541H20.2501ZM5.00006 3.75H6.646V2.25H5.00006V3.75ZM15.0001 16C15.1471 15.2646 15.1474 15.2646 15.1476 15.2646C15.1476 15.2647 15.1478 15.2647 15.1479 15.2647C15.1481 15.2648 15.1483 15.2648 15.1485 15.2648C15.1488 15.2649 15.1489 15.2649 15.1489 15.2649C15.1489 15.2649 15.1483 15.2648 15.1471 15.2645C15.1447 15.264 15.1401 15.2631 15.1332 15.2615C15.1194 15.2585 15.0968 15.2533 15.066 15.2459C15.0044 15.2309 14.9104 15.2066 14.7898 15.1711C14.5482 15.1 14.2017 14.9847 13.7955 14.8106C12.9796 14.461 11.944 13.8833 11.0304 12.9697L9.96973 14.0303C11.0561 15.1167 12.2705 15.789 13.2046 16.1894C13.6734 16.3903 14.0769 16.525 14.3666 16.6101C14.5116 16.6528 14.6285 16.6832 14.7115 16.7034C14.753 16.7135 14.786 16.721 14.8098 16.7263C14.8217 16.7289 14.8313 16.7309 14.8386 16.7325C14.8422 16.7332 14.8452 16.7339 14.8476 16.7343C14.8488 16.7346 14.8498 16.7348 14.8507 16.735C14.8512 16.7351 14.8516 16.7352 14.852 16.7352C14.8522 16.7353 14.8524 16.7353 14.8525 16.7353C14.8527 16.7354 14.853 16.7354 15.0001 16ZM11.0304 12.9697C10.1168 12.0561 9.53907 11.0204 9.18942 10.2046C9.01533 9.79836 8.90002 9.45184 8.82896 9.21025C8.79348 9.08962 8.76918 8.99565 8.7542 8.93406C8.74672 8.90329 8.74157 8.88065 8.73853 8.86687C8.73701 8.85999 8.73601 8.85532 8.73552 8.85296C8.73527 8.85178 8.73515 8.85118 8.73514 8.85117C8.73514 8.85116 8.73517 8.8513 8.73523 8.85159C8.73526 8.85174 8.7353 8.85192 8.73534 8.85214C8.73536 8.85225 8.7354 8.85244 8.73541 8.8525C8.73545 8.8527 8.7355 8.85291 8.00006 9C7.26463 9.14709 7.26467 9.14732 7.26472 9.14756C7.26474 9.14765 7.26479 9.1479 7.26483 9.14809C7.2649 9.14846 7.26498 9.14887 7.26507 9.14932C7.26526 9.15022 7.26547 9.15127 7.26572 9.15247C7.26621 9.15488 7.26684 9.15789 7.26759 9.1615C7.26911 9.16873 7.27117 9.17834 7.2738 9.19026C7.27906 9.21408 7.28661 9.2471 7.2967 9.28859C7.31688 9.37154 7.34727 9.48851 7.38991 9.6335C7.4751 9.92316 7.60979 10.3266 7.8107 10.7954C8.21105 11.7296 8.88331 12.9439 9.96973 14.0303L11.0304 12.9697ZM8.33547 9.67082L8.68949 9.49381L8.01867 8.15217L7.66465 8.32918L8.33547 9.67082ZM10.013 6.01281L9.19931 3.97868L7.80659 4.53576L8.62025 6.5699L10.013 6.01281ZM20.0214 14.8008L17.9872 13.9871L17.4302 15.3798L19.4643 16.1935L20.0214 14.8008ZM14.5062 15.3106L14.3292 15.6646L15.6709 16.3354L15.8479 15.9814L14.5062 15.3106ZM17.9872 13.9871C16.6593 13.4559 15.1459 14.0313 14.5062 15.3106L15.8479 15.9814C16.1386 15.3999 16.8265 15.1384 17.4302 15.3798L17.9872 13.9871ZM8.68949 9.49381C9.96874 8.85419 10.5441 7.34076 10.013 6.01281L8.62025 6.5699C8.86169 7.17351 8.60014 7.86143 8.01867 8.15217L8.68949 9.49381ZM6.646 3.75C7.15713 3.75 7.61676 4.06119 7.80659 4.53576L9.19931 3.97868C8.78168 2.93462 7.77048 2.25 6.646 2.25V3.75ZM21.7501 17.3541C21.7501 16.2296 21.0654 15.2184 20.0214 14.8008L19.4643 16.1935C19.9389 16.3833 20.2501 16.8429 20.2501 17.3541H21.7501ZM19.0001 20.25C10.5777 20.25 3.75006 13.4223 3.75006 5H2.25006C2.25006 14.2508 9.74929 21.75 19.0001 21.75V20.25ZM19.0001 21.75C20.5188 21.75 21.7501 20.5188 21.7501 19H20.2501C20.2501 19.6904 19.6904 20.25 19.0001 20.25V21.75ZM3.75006 5C3.75006 4.30964 4.30971 3.75 5.00006 3.75V2.25C3.48128 2.25 2.25006 3.48122 2.25006 5H3.75006ZM17.7501 11C17.7501 10.3762 17.6272 9.75855 17.3885 9.18225L16.0027 9.75628C16.166 10.1506 16.2501 10.5732 16.2501 11H17.7501ZM17.3885 9.18225C17.1498 8.60596 16.7999 8.08232 16.3588 7.64124L15.2982 8.7019C15.5999 9.00369 15.8393 9.36197 16.0027 9.75628L17.3885 9.18225ZM16.3588 7.64124C15.9177 7.20016 15.3941 6.85028 14.8178 6.61157L14.2438 7.99739C14.6381 8.16072 14.9964 8.40011 15.2982 8.7019L16.3588 7.64124ZM14.8178 6.61157C14.2415 6.37286 13.6238 6.25 13.0001 6.25V7.75C13.4269 7.75 13.8495 7.83406 14.2438 7.99739L14.8178 6.61157ZM21.7501 11C21.7501 9.85093 21.5237 8.71312 21.084 7.65152L19.6982 8.22554C20.0625 9.10516 20.2501 10.0479 20.2501 11H21.7501ZM21.084 7.65152C20.6443 6.58992 19.9998 5.62533 19.1872 4.81282L18.1266 5.87348C18.7998 6.5467 19.3338 7.34593 19.6982 8.22554L21.084 7.65152ZM19.1872 4.81282C18.3747 4.0003 17.4101 3.35578 16.3485 2.91605L15.7745 4.30187C16.6541 4.66622 17.4534 5.20025 18.1266 5.87348L19.1872 4.81282ZM16.3485 2.91605C15.2869 2.47633 14.1491 2.25 13.0001 2.25V3.75C13.9521 3.75 14.8949 3.93753 15.7745 4.30187L16.3485 2.91605Z" fill="#2662FA"/>
+                    </svg></span>
+                        
+                    </div>
+                    <div class="text">
+                      <a href="tel:1-888-452-1505">1-888-452-1505</a>
+                  </div>
+                  
+                </div>
+            </div>
+
+
+
+            <div class="header-right">
+
+                <div class="header-right-inner">
+                    <div class="icon">
+                        <a href="https://twitter.com/" target="_blank" ><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+ <!-- menu part start -->
+
+
+ <nav class="menu-bg">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 menu-padding">
+                
+    <div class="nav-main">
+        <div class="menu-main">
+            <div class="logo">
+                <a href="index.html"> <img src="./images/logo/Logo.png" alt="logo"></a>
+            </div>
+  
+  
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html" target="_blank">Home  <i class="fa-sharp fa-solid fa-angle-down"></i> </a>
+                      <ul>
+                        <li>
+                          <a href="home-page-02.html"  target="_blank"> Designer</a>
+                        </li>
+                        <li>
+                          <a href="home-page-03.html"  target="_blank"> Development</a>
+                        </li>
+                        <li>
+                          <a href="index-lawyer.html"  target="_blank"> Lawyer </a>
+                        </li>
+                        <li>
+                          <a href="Home-photographer.html"  target="_blank"> Photographer </a>
+                        </li>
+                        <li>
+                          <a href="index.html"  target="_blank"> Product Designer</a>
+                        </li>
+                        <li>
+                          <a href="Home-Teachers.html"  target="_blank"> Teachers</a>
+                        </li>
+                      </ul>
+                </li>
+                    <li><a href="portfolio.html"  target="_blank">Portfolio  <i class="fa-sharp fa-solid fa-angle-down"></i> </a>
+                    
+                      <ul>
+                        <li>
+                          <a href="portfolio.html"  target="_blank">Portfolio</a>
+                        </li>
+                        <li>
+                          <a href="protfolio-detalis.html"  target="_blank">Portfolio-details</a>
+                        </li>
+                      </ul>
+                    
+                    
+                    </li>
+                    <li><a href="home-one-service.html"  target="_blank">Services <i class="fa-sharp fa-solid fa-angle-down"></i> </a>
+
+                      <ul>
+                        <li>
+                          <a href="home-one-service.html"  target="_blank">Services</a>
+                        </li>
+                        <li>
+                          <a href="home-one-service-detalis.html"  target="_blank">Services-details</a>
+                        </li>
+                      </ul>
+
+                    </li>
+                    <li><a href="home-1-blog.html"  target="_blank">Blog  <i class="fa-sharp fa-solid fa-angle-down"></i> </a>
+                    
+                      <ul>
+                        <li>
+                          <a href="home-1-blog.html"  target="_blank">Blog</a>
+                        </li>
+                        <li>
+                          <a href="home-1-blog-2.html"  target="_blank">Blog-02</a>
+                        </li>
+                        <li>
+                          <a href="home-1blog-detalis.html"  target="_blank">Blog-details</a>
+                        </li>
+                      </ul>
+                    
+                    
+                    </li>
+                    <li><a href="coming-soon.html"  target="_blank">pages  <i class="fa-sharp fa-solid fa-angle-down"></i>
+
+
+                     </a>
+                     <ul>
+                      <li>
+                        <a href="achievement.html"  target="_blank">achievement</a>
+                      </li>
+                      <li>
+                        <a href="countact-me.html"  target="_blank">countact-me</a>
+                      </li>
+                      <li>
+                        <a href="coming-soon.html"  target="_blank">coming-soon</a>
+                      </li>
+                      <li>
+                        <a href="error.html"  target="_blank"> 404 error</a>
+                      </li>
+                      <li>
+                        <a href="gallery.html"  target="_blank"> gallery</a>
+                      </li>
+                      <li>
+                        <a href="product.html"  target="_blank"> Product</a>
+                      </li>
+                      <li>
+                        <a href="product-details.html"  target="_blank"> Product-details</a>
+                      </li>
+                      <li>
+                        <a href="team.html"  target="_blank"> Team-Member</a>
+                      </li>
+                      <li>
+                        <a href="team-detalis.html"  target="_blank"> Team-Details</a>
+                      </li>
+                    </ul>
+
+                
+                    <li><a href="about.html"  target="_blank">About Me </a>
+
+
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div class="menu-btn">
+            <div class="btn-style-1">
+                <a href="#">Let’s Talk <span><svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 9.5L13 5.5M13 5.5L9 1.5M13 5.5L1 5.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
+                    </span></a>
+            </div>
+      </div>
+
+        </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</nav>
+</header>
+<!-- End Header -->
+
+</pre><!-- /.code -->
+
+                    <br />
+                    <p>Add your own menu item to that ul li item. and if you want to add dropdown menu just make a
+                        nesting ul li with class of <b>sub-menu</b></p>
+
+                    <br />
+                    <br />
+                    <h3 class="content-title">FOOTER COPYRIGHT</h3><!-- /.content-title -->
+                    <br />
+                    <pre class="code" data-language="html">
+
+<!-- Copyright -->
+
+<div class="copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="copyright-text">
+            <h5>Copyright © 2023 – All Rights Reserved. Made by <a href="#">fallow</a></h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Copyright -->
+
+
+            </section>
+
+            <!--Sources and Credits-->
+            <section class="section sources-credits" id="sources-credits">
+                <div class="sec-title">
+                    <span class="icon fa fa-credit-card"></span>
+                    <h2>Sources and Credits</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+
+                    <h3>Fonts Used int the template are google fonts, you can find theme on Google Fonts API</h3>
+
+                    <p><strong> Fonts Used are :</strong></p>
+                    <p><a href="https://fonts.google.com/specimen/Poppins">Work Sans</a></p>
+<!-- 
+                    <br>
+
+                    <p><strong> File Used For Animation Effects :</strong></p>
+                    <p><strong><a href="https://daneden.github.io/animate.css/" target="_blank">animate.css</a></strong> (in css
+                        Folder)</p>
+
+                    <br> -->
+
+
+                    <p><strong> Plugins Used Are :</strong></p>
+			
+					<p><a href="https://github.com/FortAwesome/Font-Awesome" target="_blank">Font Awesome</a> (cdn link)</p>
+                    <p><a href="https://github.com/kenwheeler/slick/" target="_blank">slick slider min.js</a> (can be located in js
+                        folder)</p>
+					<p><a href="https://github.com/bfintal/Counter-Up" target="_blank">jquery.counterup.min.js</a> (can be located in js
+                        folder)</p>
+					<p><a href="https://getbootstrap.com/" target="_blank">bootstrap.min.js</a> (can be located in js
+                        folder)</p>
+					<p><a href="https://github.com/jquery/jquery" target="_blank">jquery.min.js</a> (can be located in js
+                        folder)</p>
+					<p><a href="https://github.com/metafizzy/isotope" target="_blank">isotope.pkgd.min.js</a> (can be located in js
+                        folder)</p>
+					<p><a href="https://github.com/nicolafranchini/VenoBox" target="_blank">venobox.min.js</a> (can be located in js
+                        folder)</p>
+                    Every Code is properly commented for Editing Ease.
+
+                </div>
+
+            </section>
+
+            <!--Support-->
+            <section class="section support" id="support">
+                <div class="sec-title">
+                    <span class="icon fa fa-support"></span>
+                    <h2>Support</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+
+                    <h3>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad
+                        to help you if you have any questions relating to this theme. No guarantees, but I'll do my best
+                        to assist. If you have any queries, please feel free to contact us at Support Center.</h3>
+                    <div class="support-image">
+                        <a href="mailto:Abdur.rohman2003@gmail.com"><img src="images/customer__support.png" alt=""></a>
+                    </div><br>
+
+                    <p>Email Us at : <a href="mailto:Abdur.rohman2003@gmail.com ">Abdur.rohman2003@gmail.com </a> </p>
+
+                </div>
+
+            </section>
+
+            <!--Free Assetes-->
+            <section class="section custom-order" id="custom-order">
+                <div class="sec-title">
+                    <span class="icon fa fa-support"></span>
+                    <h2>Custom Order</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+
+                    <p>For any custom order (web ui design, app design, HTML template Development, WordPress Theme Development or WordPress Plugin Development) please contact us</p><br>
+                    <div class="thumb">
+                        <a href="mailto:Abdur.rohman2003@gmail.com"><img src="images/custom__order.png" alt=""></a>
+                    </div>
+                    
+
+
+
+
+                </div>
+
+            </section>
+
+
+        </div>
+
+
+    </div>
+    <!--End pagewrapper-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/scrollbar.js"></script>
+    <script src="js/prism.js"></script>
+
+    <script src="js/jquery.highlight.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
